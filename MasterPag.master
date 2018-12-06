@@ -1,0 +1,105 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPag.master.cs" Inherits="MasterPag" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="vendor/bootstrap/css/mian.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <title></title>
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .bounceInLeft {
+            height: 55px;
+            width: 95px;
+        }
+    </style>
+</head>
+<body>
+
+    <form id="form" runat="server">
+        <header>
+             
+           <h4 class="text-center">Jahangirnagar University Dormitory Management</h4>   
+          </header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+            <div class="container-fluid headerlogo">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        <img class="animated bounceInLeft" src="img\logo.jpg" />
+                        <a href="HomePage.aspx"></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container">
+                <a class="navbar-brand" href="www.juniv.edu">jahangirnagr University</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="nav navbar-nav">
+                        <asp:ContentPlaceHolder ID="List" runat="server">
+                            <li class="nav-item active"><a class="nav-link" href="HomePage.aspx">Home Page<span class="sr-only"></span></a> </li>
+                            <li class="nav-item active"><a class="nav-link" href="UserCreation.aspx">Register New User <span class="sr-only"></span></a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#">About <span class="sr-only"></span></a></li>
+                            <li class="nav-item active"><a class="nav-link" href="AddInformation.aspx">Fill out Form</a> </li>
+                            <li class="nav-item active"><a class="nav-link" href="Hall_Review.aspx">Hall Approval</a> </li>
+                            <li class="nav-item active"><a class="nav-link" href="Department_Review.aspx">Department Approval</a> </li>
+                            <li class="nav-item active"><a class="nav-link" href="report.aspx">Completion</a> </li>
+                            
+                            <li><a id="user" href="#" runat="server"></a></li>
+
+
+                        </asp:ContentPlaceHolder>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+       <br/> 
+        <br/>
+        <br/>
+        
+        
+        
+        
+
+   <asp:ContentPlaceHolder id="Control" runat="server">
+       
+    </asp:ContentPlaceHolder>
+        <br/>
+        <br/>
+
+        <footer class="list-unstyled">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+
+                        <p class="lead">Developed by MD Suhag Ali</p>
+                        <ul class="list-unstyled">
+                            <li>Contact information: <a href="skshohagiitju@gamil.com">skshohagiitju@gamil.com</a>.</li>
+                            <li>Copyright @2018</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+    </form>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

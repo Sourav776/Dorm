@@ -1,0 +1,173 @@
+.some
+ {
+    color:blue;
+    
+}
+.FirstL
+{
+	text-align:left;
+}
+.FirstT
+{
+    width:300px;
+	height: 35px;
+}
+.LastL
+{
+	text-align:left;
+}
+.LastT
+{
+	width:300px;
+	height: 35px;
+}
+
+.MailL
+{
+	margin-left:-45px;
+	
+}
+
+.MailT
+{
+    width:300px;
+	height: 35px;
+}
+
+.PassL
+{
+	margin-right:7px;
+}
+
+.PassT
+{
+	width:300px;
+	height: 35px;
+}
+.MessageL {
+    text-align: left;
+}
+
+.BirthL {
+    margin-left:-10px;
+}
+
+.BirthT {
+    width: 300px;
+    height: 35px;
+}
+.Button
+{
+	margin-right:-70px;
+    width:100px;
+    height:35px;
+    color:Red;
+    background-color: green;
+}
+
+.YouL
+{
+    
+    margin-right:120px;
+}
+.MaleR
+{
+    margin-right:70px
+}
+.FemaleR
+{
+    margin-right:100px;
+}
+.HallDDL
+{
+    width:450px;
+    height:25px;
+}
+
+.TypeL
+{
+    margin-right:350px;
+}
+.YearR
+{
+    margin-left:30px;
+}
+.SemesterR
+{
+    margin-left:-150px;
+}
+.TypeDDL
+{
+    width:450px;
+    height:25px;
+}
+.DeptDDL
+{
+    width:450px;
+    height:25px;
+}
+.RollL
+{
+    margin-right:200px;
+}
+.RollT
+ {
+    
+}
+
+.RegiL
+{
+  margin-right:130px;
+}
+.SessionL
+{
+    margin-right:210px;
+}
+.SessionDDL
+{
+    width:190px;
+    height:25px;
+}
+.FatherL
+{
+    margin-right:190px;
+}
+.MotherL
+{
+    margin-right:180px;
+}
+
+.SignL
+{
+    margin-right:50px;
+}
+.Upload
+{
+    color:purple;
+}
+.MesL
+{
+    color:red;
+}
+.SaveB
+{
+    margin-left:100px;
+    width:100px;
+    height:35px;
+    color:Red;
+    background-color: green;
+}
+
+.logout
+{
+    
+    color:white;
+    border:none;
+}
+
+.Entity
+{
+    width:300px;
+    height:35px;
+    margin-left:80px;
+}
